@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from TCL T1 device
-$(call inherit-product, device/tcl/TCL_T1/device.mk)
+$(call inherit-product, device/TCL/TCL_T1/device.mk)
 
 PRODUCT_DEVICE := TCL_T1
 PRODUCT_NAME := omni_TCL_T1
